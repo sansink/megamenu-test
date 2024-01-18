@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menu Example</title>
+    <link href="mega-style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="mega-menu-trigger">
+                <a href="#">Search</a>
+                <div class="mega-menu">
+                    <div class="column">
+                        <ul>
+                            <li class="flyout-trigger">
+                                <a href="#">Advanced Search</a>
+                                <div class="flyout">
+                                    <h3>Orange County</h3>
+                                    <ul>
+                                        <li><a href="#">Anaheim</a></li>
+                                        <li><a href="#">Orange</a></li>
+                                        <!-- Additional links as needed -->
+                                    </ul>
+                                    <h3>Riverside County</h3>
+                                    <ul>
+                                        <li><a href="#">Corona</a></li>
+                                        <li><a href="#">Riverside</a></li>
+                                        <!-- Additional links as needed -->
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="flyout-trigger">
+                                <a href="#">Search by Map</a>
+                                <!-- Corresponding flyout content would go here -->
+                            </li>
+                            <li class="flyout-trigger">
+                                <a href="#">Property Tracker</a>
+                                <!-- Corresponding flyout content would go here -->
+                            </li>
+                            <li class="flyout-trigger">
+                                <a href="#">Featured Listings</a>
+                                <!-- Corresponding flyout content would go here -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <!-- Other main menu items -->
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="mega-scripts.js"></script>
+</body>
+
+</html>
